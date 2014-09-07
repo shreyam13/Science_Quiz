@@ -147,5 +147,5 @@ else:
     print "Wrong \nCorrect Answer : " + A[i]
 
 
-print "\nOut of 12 questions asked, you got %d of them right." % (count)
-print "\nYou got %d percent." % (count / float(12) * 100)
+print "\nOut of 14 questions asked, you got %d of them right." % (count)
+print "\nYou got %d percent." % (count / float(14) * 100)
