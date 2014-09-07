@@ -1,4 +1,4 @@
-iimport sys
+import sys
 from random import randint
 
 count = 0
