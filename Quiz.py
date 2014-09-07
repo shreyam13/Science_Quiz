@@ -41,13 +41,14 @@ A = ["bromine",
      "j"]
 
 i = randint(0, 14)
-answer = raw_input("\nQuestion 1:" + Q[i])
+answer = raw_input("Question 1:" + Q[i])
 
 if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
+
 
 i = randint(0, 14) 
 
@@ -56,7 +57,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 
     i = randint(0, 14)
 answer = raw_input("\nQuestion 3:" + Q[i])
@@ -65,7 +66,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 
 i = randint(0, 14) 
 
@@ -74,7 +75,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 i = randint(0, 14)
 answer = raw_input("\nQuestion 5:" + Q[i])
 
@@ -82,7 +83,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 
 i = randint(0, 14) 
 
@@ -91,7 +92,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 i = randint(0, 14)
 answer = raw_input("\nQuestion 7:" + Q[i])
 
@@ -99,7 +100,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 
 i = randint(0, 14) 
 
@@ -108,7 +109,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 i = randint(0, 14)
 answer = raw_input("\nQuestion 9:" + Q[i])
 
@@ -116,7 +117,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 
 i = randint(0, 14) 
 
@@ -125,7 +126,8 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
+
 i = randint(0, 14)
 answer = raw_input("\nQuestion 11:" + Q[i])
 
@@ -133,7 +135,7 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 
 i = randint(0, 14) 
 
@@ -142,7 +144,8 @@ if answer.lower() == A[i]:
     print "Correct"
     count = count + 1
 else:
-    print "Wrong"
+    print "Wrong \nCorrect Answer : " + A[i]
 
 
 print "\nOut of 12 questions asked, you got %d of them right." % (count)
+print "\nYou got %d percent." % (count / float(12) * 100)
