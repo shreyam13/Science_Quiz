@@ -5,18 +5,18 @@ count = 0
  
 
 
-Q = ["What is a non metal that remains liquid at room temperature?",
+Q = ["What is a non metal that remains liquid at room temperature? ",
      "Chlorophyll is a naturally occurring chelate compound in which central metal is: ",
-     "Which of the following is used in pencils?",
-     "Which of the following metals forms an amalgam with other metals?",
+     "Which of the following is used in pencils? ",
+     "Which of the following metals forms an amalgam with other metals? ",
      "The gas usually filled in the electric bulb is: ",
-     "Which of the following is used as a moderator in a nuclear reactor?",
+     "Which of the following is used as a moderator in a nuclear reactor? ",
      "Isotopes are separated by: ",
-     "Which radioactive pollutant has recently drawn to public, due to its occurrence in the building material?",
-     "Who suggested that most of the mass of the atom is located in the nucleus?",
+     "Which radioactive pollutant has recently drawn to public, due to its occurrence in the building material? ",
+     "Who suggested that most of the mass of the atom is located in the nucleus? ",
      "According to Avogadro's Hypothesis, the smallest particle of an element or a compound, that can exist independently, is called a(n) ",
      "Nuclear fission is caused by the impact of: ",
-     "How many colours the sunlight spectrum has?"]
+     "How many colours the sunlight spectrum has? "]
 A = ["bromine",
      "magnesium",
      "graphite",
