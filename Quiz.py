@@ -19,7 +19,9 @@ Q = ["What is a non metal that remains liquid at room temperature?",
      "How many colors are in the sunlight spectrum?",
      "What color is bromine?",
      "The hardest substance available on earth is ",
-     "The variety of coal in which the deposit contains recognizable traces of the original plant material is "]
+     "The variety of coal in which the deposit contains recognizable traces of the original plant material is ",
+     "What is the only substance that expands as it freezes?",
+     "What is the only letter that does appear on the periodic table?"]
 A = ["bromine",
      "magnesium",
      "graphite",
@@ -34,7 +36,9 @@ A = ["bromine",
      "seven",
      "red",
      "diamond",
-     "peat"]
+     "peat",
+     "water",
+     "j"]
 
 i = randint(0, 14)
 answer = raw_input("\nQuestion 1:" + Q[i])
